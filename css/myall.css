@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap');
+
+:root {
+    --color-background: #D9F3F4;
+    --color-logo: #075985;
+    --color-primary: #008C95;
+    --color-secondary: #48CAE4;
+    --color-accent: #00A6A6;
+    --color-accent-dark: #06283D;
+    --color-text-primary: #064663;
+    --color-text-secondary: #176B87;
+    --color-light: #EAFBFC;
+    --color-border-shadow: #0077B6;
+    --color-button-shadow: #E76F51;
+    --color-white: #FFFFFF;
+}
+
+/* =========================
+   基本設定
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Zen Maru Gothic", sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+}
+
+
+/* =========================
+   字體粗度
+========================= */
+
+.fw100 {
+    font-weight: 100;
+}
+
+.fw200 {
+    font-weight: 200;
+}
+
+.fw300 {
+    font-weight: 300;
+}
+
+.fw400 {
+    font-weight: 400;
+}
+
+.fw500 {
+    font-weight: 500;
+}
+
+.fw600 {
+    font-weight: 600;
+}
+
+.fw700 {
+    font-weight: 700;
+}
+
+.fw800 {
+    font-weight: 800;
+}
+
+.fw900 {
+    font-weight: 900;
+}
+
+
+/* =========================
+   標題
+========================= */
+
+.title01 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 42px;
+    color: var(--color-accent-dark);
+
+    padding: 35px 15px 25px;
+
+    letter-spacing: 2px;
+}
+
+.title02 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 32px;
+    color: var(--color-primary);
+
+    letter-spacing: 1px;
+}
+
+.title03 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--color-button-shadow);
+}
+
+
+/* =========================
+   餐廳資訊文字
+========================= */
+
+.title04 {
+    color: var(--color-text-primary);
+    font-size: 18px;
+    font-weight: 600;
+
+    line-height: 1.8;
+
+    padding: 0 20px;
+}
+
+.demo .title04:first-of-type {
+    padding-top: 18px;
+}
+
+.demo .title04:last-of-type {
+    padding-bottom: 20px;
+}
+
+
+/* =========================
+   背景圖
+========================= */
+
+.bg {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
